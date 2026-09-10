@@ -48,6 +48,15 @@ Add a stdio server in your assistant's MCP configuration. For clients accepting 
 
 Some hosts use a different configuration format. Use the same executable and arguments in their MCP settings. If the app cannot resolve Node, use its absolute executable path.
 
+For Codex CLI, register the server using the supported command:
+
+```sh
+codex mcp add vectis -- node --env-file=/absolute/path/vectis-agent/.env /absolute/path/vectis-agent/src/server.mjs
+codex mcp get vectis
+```
+
+Restart your client session after registration. Authorize mission creation and data operations through the host's approval flow. An unattended session with approvals unavailable can connect and inspect tools yet refuse mission creation; this is not a successful end-to-end test. See [Codex MCP configuration](https://learn.chatgpt.com/docs/extend/mcp?surface=cli) and the actual test status in [VALIDATION.md](VALIDATION.md).
+
 Enable the included `skills/vectis-sponsoring` skill in hosts that support skills. Otherwise ask the assistant to call `vectis_get_workflow` first; the same instructions are returned. The MCP `sponsor-research` prompt is also available.
 
 Example request:

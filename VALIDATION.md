@@ -14,6 +14,14 @@ No drafts or emails were generated or sent. No SponsorAI model or production dat
 
 ## Limits
 
+### Codex subscription test
+
+On September 10, the standalone checkout was registered as a local Codex MCP server. A real Codex CLI session authenticated with ChatGPT successfully called `vectis_get_workflow` and inspected provider operations. No model API key was supplied to Vectis.
+
+The host rejected `vectis_start_mission` with `MCP tool call requires approval, but approval policy is never`. No mission or paid data run was created by this attempt. Full autonomous completion using the subscription therefore remains **blocked, not validated**. Host approval policy was not weakened to make the test pass. Claude CLI was not authenticated, so Claude compatibility remains untested. All 14 automated tests passed again in the standalone checkout.
+
+### Live sample limits
+
 This is a functional sample, not a representative coverage or deliverability benchmark. Provider-valid does not guarantee delivery or a reply. The air up contact with a valid address has Benelux/global content responsibilities; decision-making authority for France was not established. Commercial fit, available budgets and athlete exclusivities remain unverified.
 
 One Finder result marked the domain catch-all, while the later explicit Verifier result did not. Both responses were retained privately; the latest explicit verification determines the reported verdict.
