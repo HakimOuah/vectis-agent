@@ -4,6 +4,15 @@ Sponsorship research tools for **your own AI assistant**. Your model researches,
 
 This is an installable first version extracted from the SponsorAI/Vectis project. It does not call SponsorAI's AI engine, production database, LinkedIn browser session or mailboxes. No OpenAI or Anthropic model credentials are read by the server.
 
+## Demo and quick links
+
+- **[Live site](https://vectis-agent.vercel.app)**
+- **[Watch or download the 69-second demo](https://github.com/HakimOuah/vectis-agent/releases/download/v0.1.0/vectis-agent-demo.mp4)** · [GitHub release](https://github.com/HakimOuah/vectis-agent/releases/tag/v0.1.0)
+- **[Install locally](#install-locally)** and paste the example mission below.
+- **[Measured results and limits](VALIDATION.md)** · [Price context](docs/PRICING-SOURCES.md)
+
+The demo uses animated, simulated assistant interfaces to replay the completed MCP SDK test. One athlete, two brands and four contacts produced **two provider-valid emails for $0.20784 across 14 Monid data calls**. The user's model cost is separate. See the validation report for host compatibility and sample limits.
+
 ## Choose your model
 
 - **An assistant with a subscription:** connect this local MCP server to a host that supports stdio MCP servers. The host uses its own supported login and model. Vectis does not authenticate against or consume your subscription itself.

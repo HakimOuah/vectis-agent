@@ -32,4 +32,6 @@ Personal contact details, provider payloads, API keys and local mission files ar
 
 The package was developed on September 10, 2026 using existing SponsorAI business knowledge and Monid integration patterns. Its public Git history begins with this export; it does not imply that all underlying work originated during the hackathon. Eligibility has not been confirmed by the organizers.
 
-Manual compatibility checks with individual assistant apps, a comparable competitor-price benchmark, hosted deployment, the demo video and hackathon submission remain separate work.
+The public landing is deployed at https://vectis-agent.vercel.app. The 68.67-second 1080p demo is available in the [v0.1.0 release](https://github.com/HakimOuah/vectis-agent/releases/tag/v0.1.0); it is an animated SDK replay with simulated assistant interfaces, not a new successful native ChatGPT/Claude run. The website is a landing page; the MCP server still runs locally.
+
+Manual compatibility checks with individual assistant apps, an equivalent-workload competitor benchmark and hackathon submission remain separate work. Social and email copy is prepared in [docs/HACKATHON-DRAFT.md](docs/HACKATHON-DRAFT.md); publishing GitHub materials does not submit the entry.

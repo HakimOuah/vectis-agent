@@ -1,41 +1,50 @@
-# Hackathon presentation draft — September 10, 2026
+# Hackathon submission copy — September 10, 2026
 
-Status: prepared, not submitted. Animated SDK replay MP4 exported (68.67s, 1080p); not published or submitted. Organizer eligibility confirmation outstanding.
+Status: GitHub materials prepared; social post and email not sent. Attach the demo video to the X post. Replace the email's social URL placeholder after publishing.
 
-## Post draft
+## X post (attach the demo)
 
-Built Vectis Agent with Monid: sponsorship research tools for your own AI assistant.
+I built Vectis Agent to cut Apollo/Hunter subscriptions out of sponsorship prospecting.
 
-Give your agent an athlete profile and a spending cap. It can research brands, discover professional contacts, find emails and explicitly verify them with Hunter. Your model makes the decisions; Vectis supplies evidence and saves the handoff. No SponsorAI model key required.
+Your AI thinks. Monid supplies the data.
 
-A live MCP SDK workflow covered one athlete, two brands and four targeted contacts. Two addresses received valid Hunter verdicts; two contacts had no address. Fourteen data calls cost $0.20784 in measured Monid charges, excluding the client model. No emails were drafted or sent.
+Live test: 14 calls, 2 validated emails, $0.21 in data costs. Not even a baguette 🥖
 
-Website: https://vectis-agent.vercel.app
-Code: https://github.com/HakimOuah/vectis-agent
-Setup: https://github.com/HakimOuah/vectis-agent#install-locally
-Evidence and limitations: https://github.com/HakimOuah/vectis-agent/blob/main/VALIDATION.md
+https://vectis-agent.vercel.app #monid
 
-The workflow targets sponsorship prospecting performed with Apollo/Hunter subscriptions; Apollo and Hunter remain data suppliers through Monid. This is not a claim to replace their full products or to prove subscription savings.
+## Email reply to Jasper
 
-Client compatibility is still being validated: Codex connected using ChatGPT authentication and read the tools, but its unattended approval policy blocked mission creation. Claude is untested. Existing SponsorAI integration work predates this standalone package; eligibility is unconfirmed.
+Reply in the existing email thread, preserving its subject.
 
-## Demo outline — 75 to 90 seconds
+Hi Jasper,
 
-This is a recording plan, not a recording or a claim of a new successful assistant run.
+Thanks for the update! Here is Vectis Agent, my entry for We Kill.
 
-1. Show the actual public repository and installation instructions (0–15 seconds).
-2. Show the example brief, explicit $0.50 cap and client-model ownership (15–30 seconds).
-3. Show the existing sanitized validation report: research → contact discovery → explicit email verification (30–50 seconds). Label this as the completed SDK test; do not depict it as the blocked autonomous Codex run.
-4. Show two valid addresses out of four contacts as counts only, $0.20784 provider charges, separate model cost, and no drafted/sent emails (50–65 seconds).
-5. Show source link and outstanding host compatibility work (65–90 seconds).
+Social post: [PASTE THE PUBLISHED X POST URL]
+Live site: https://vectis-agent.vercel.app
+Repository: https://github.com/HakimOuah/vectis-agent
+Demo video: https://github.com/HakimOuah/vectis-agent/releases/download/v0.1.0/vectis-agent-demo.mp4
 
-Do not display API keys, raw provider payloads, private email addresses, local environment files or account information. Do not fabricate a terminal interaction or successful run.
+1. What I killed and its price: the Apollo/Hunter subscription stack for sponsorship prospecting — Apollo Basic at $69 per seat/month and Hunter Starter at €49/month, using monthly billing prices observed on September 10. Vectis exposes this workflow as installable MCP tools for the user's own AI. Apollo and Hunter remain upstream data providers through Monid; this is a scoped workflow replacement, not full-product parity.
+2. Monid endpoints used: Exa `/search`; Apollo `/mixed_people/api_search` and `/people/match`; Hunter (`hunterio`) `/email-finder` and `/email-verifier`.
+3. Real measured cost: $0.20784 across 14 data calls (6 Exa searches, 1 Apollo search, 2 Apollo enrichments, 3 Hunter finder calls, 2 Hunter verifier calls). One athlete, two brands, four contacts: two provider-validated emails and two missing addresses. Client-model costs are separate; no emails were sent.
 
-## Before submission
+The video is an animated replay of the completed MCP SDK test, with simulated assistant interfaces. The installable package was created on September 10 from existing SponsorAI work; this prior-work provenance is documented in the repo for your eligibility review.
 
-- Complete an interactive client run with the host's own approval flow.
-- Record the actual demo, with the SDK/client distinction visible if still applicable.
-- Public landing deployed: https://vectis-agent.vercel.app (Vercel).
-- Confirm organizer rules on pre-existing project work and the submission deadline.
-- If making cost-comparison claims, price an equivalent operation/coverage basket using current official competitor prices and include model costs. Do not compare this small sample directly with a full monthly plan.
-- Submit only after the final links and claims are checked.
+Thanks for organizing this — happy to share more details!
+
+Hakim
+
+## Submission checklist
+
+- Publish the demo on social channels with `#monid` in every post.
+- Replace the social URL placeholder and reply to the organizer's email.
+- Organizer email supplied by the participant says registration is already complete and submission closes September 14, 2026 at 23:59 ET (September 15 at 05:59 Europe/Paris).
+- Prior-work provenance and client compatibility limits are documented in [VALIDATION.md](../VALIDATION.md).
+
+## Public assets
+
+- [Release and demo download](https://github.com/HakimOuah/vectis-agent/releases/tag/v0.1.0)
+- [MP4](https://github.com/HakimOuah/vectis-agent/releases/download/v0.1.0/vectis-agent-demo.mp4)
+- [Live site](https://vectis-agent.vercel.app)
+- [Measured validation](../VALIDATION.md)

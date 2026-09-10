@@ -1,0 +1,3 @@
+# Price evidence — 2026-09-10
+Apollo https://www.apollo.io/pricing (localized /fr/pricing), monthly billing selected: Basic 69 USD / seat / month; annual billing showed 49 USD / seat / month. Hunter https://hunter.io/pricing monthly selected: Starter 49 EUR/month; annual showed 34 EUR/month. These are separate currencies, not summed. Both offer free tiers. No full-product equivalence or net savings number asserted.
+Sample: https://github.com/HakimOuah/vectis-agent/blob/main/VALIDATION.md. Monid 0.20784 USD for 14 data operations, 2 valid contacts out of 4. Model cost excluded. Budget cap in actual SDK sample 2 USD. Synthetic motion UI is explicitly an animated SDK replay, not a new interactive assistant recording.
