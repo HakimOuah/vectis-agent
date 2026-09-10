@@ -1,6 +1,6 @@
 # Hackathon presentation draft — September 10, 2026
 
-Status: prepared, not submitted. Animated SDK replay video prepared; final export in progress. Organizer eligibility confirmation outstanding.
+Status: prepared, not submitted. Animated SDK replay MP4 exported (68.67s, 1080p); not published or submitted. Organizer eligibility confirmation outstanding.
 
 ## Post draft
 
