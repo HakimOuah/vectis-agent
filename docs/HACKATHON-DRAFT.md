@@ -1,6 +1,6 @@
 # Hackathon presentation draft — September 10, 2026
 
-Status: prepared, not submitted. Video not recorded. Organizer eligibility confirmation outstanding.
+Status: prepared, not submitted. Animated SDK replay video prepared; final export in progress. Organizer eligibility confirmation outstanding.
 
 ## Post draft
 
@@ -10,6 +10,7 @@ Give your agent an athlete profile and a spending cap. It can research brands, d
 
 A live MCP SDK workflow covered one athlete, two brands and four targeted contacts. Two addresses received valid Hunter verdicts; two contacts had no address. Fourteen data calls cost $0.20784 in measured Monid charges, excluding the client model. No emails were drafted or sent.
 
+Website: https://vectis-agent.vercel.app
 Code: https://github.com/HakimOuah/vectis-agent
 Setup: https://github.com/HakimOuah/vectis-agent#install-locally
 Evidence and limitations: https://github.com/HakimOuah/vectis-agent/blob/main/VALIDATION.md
@@ -34,7 +35,7 @@ Do not display API keys, raw provider payloads, private email addresses, local e
 
 - Complete an interactive client run with the host's own approval flow.
 - Record the actual demo, with the SDK/client distinction visible if still applicable.
-- Obtain a public landing URL; the Sites review version is owner-private.
+- Public landing deployed: https://vectis-agent.vercel.app (Vercel).
 - Confirm organizer rules on pre-existing project work and the submission deadline.
 - If making cost-comparison claims, price an equivalent operation/coverage basket using current official competitor prices and include model costs. Do not compare this small sample directly with a full monthly plan.
 - Submit only after the final links and claims are checked.
